@@ -1,3 +1,4 @@
+require('dotenv').config();
 const HDWalletProvider = require("@truffle/hdwallet-provider"); // helps to create a provider
 const Web3 = require("web3");
 const compiledFactory = require("./build/CampaignFactory.json");

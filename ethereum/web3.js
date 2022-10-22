@@ -3,7 +3,7 @@
 // buts this web3 uses older version
 // we will take provider from this web3 instance and
 // attach it to our new web3 instance using latest version
-
+require('dotenv').config();
 import Web3 from "web3";
 
 let web3;

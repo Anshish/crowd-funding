@@ -1,5 +1,5 @@
 // this file will help to get access to already deployed verison of factory
-
+require('dotenv').config();
 import web3 from "./web3"; // this will retrieve local instance of web3
 import campaignFactory from "./build/CampaignFactory.json"; // this will retrieve abi of our contract
 
